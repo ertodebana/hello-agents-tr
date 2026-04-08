@@ -1,0 +1,19 @@
+baseURL = "https://ertodebana.github.io/hello-agents-tr/"
+languageCode = "tr-TR"
+defaultContentLanguage = "tr"
+title = "Hello Agents"
+theme = "hugo-book"
+
+[params]
+  BookTheme = "auto"
+  BookToC = true
+  BookCollapseSection = true
+  BookSearch = true
+  BookRepo = "https://github.com/ertodebana/hello-agents-tr"
+
+[markup.goldmark.renderer]
+  # Required: chapters use raw HTML <div align="center"><img .../></div> blocks
+  unsafe = true
+
+[markup.highlight]
+  style = "monokai"
