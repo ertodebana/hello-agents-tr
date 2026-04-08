@@ -1,4 +1,4 @@
-# Bölüm 7: Kendi Ajan Çerçeven
+# Bölüm 7: Kendi Agent Çerçeven
 
 > **Bu bölüm çeviri bekliyor.** Katkıda bulunmak ister misiniz? Pull Request açmaktan çekinmeyin!
 

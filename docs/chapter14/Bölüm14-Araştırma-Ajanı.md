@@ -1,4 +1,4 @@
-# Bölüm 14: Derin Araştırma Ajanı
+# Bölüm 14: Derin Araştırma Agentı
 
 > **Bu bölüm çeviri bekliyor.** Katkıda bulunmak ister misiniz? Pull Request açmaktan çekinmeyin!
 

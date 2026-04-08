@@ -1,4 +1,4 @@
-# Bölüm 10: Ajan İletişim Protokolleri
+# Bölüm 10: Agent İletişim Protokolleri
 
 > **Bu bölüm çeviri bekliyor.** Katkıda bulunmak ister misiniz? Pull Request açmaktan çekinmeyin!
 

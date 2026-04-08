@@ -1,197 +1,197 @@
 
-# Bölüm 1: Ajanlara Giriş
+# Bölüm 1: Agent'lara Giriş
 
-Ajan dünyasına hoş geldiniz! Yapay zekanın dalgasının tüm dünyayı süpürdüğü günümüzde, **Ajanlar** teknolojik dönüşümü ve uygulama yeniliklerini yönlendiren temel kavramlardan biri haline gelmiştir. YZ alanında araştırmacı veya mühendis olmayı hedefliyor olsanız da teknolojiyi derinlemesine anlamayı arzulayan bir gözlemci olsanız da, ajanların özünü kavramak bilgi sisteminizin vazgeçilmez bir parçası olacaktır.
+Agent dünyasına hoş geldin! Yapay zeka dalgasının tüm dünyayı sardığı bu dönemde, **Agent'lar** teknolojik dönüşümün ve uygulama inovasyonunun merkezine yerleşti. YZ alanında araştırmacı ya da mühendis olmayı hedefliyor olsan da, sadece bu alanı derinlemesine merak ediyor olsan da, agent'ların özünü kavramak güçlü bir temel sağlar.
 
-Bu nedenle bu bölümde temellere dönelim ve birlikte birkaç soruyu keşfedelim: Ajan nedir? Ana türleri nelerdir? Yaşadığımız dünya ile nasıl etkileşime girer? Bu tartışmalar aracılığıyla, ilerideki öğrenim ve araştırmanız için sağlam bir temel oluşturmayı umuyoruz.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-0.png" alt="Ajan ile ortam arasındaki temel etkileşim döngüsü" width="90%"/>
-  <p>Şekil 1.1 Ajan ile ortam arasındaki temel etkileşim döngüsü</p>
-</div>
-
-## 1.1 Ajan Nedir?
-
-Herhangi bir karmaşık kavramı araştırırken en iyi başlangıç noktası özlü bir tanımdır. Yapay zeka alanında ajan, **Algılayıcılar** (Sensors) aracılığıyla **Ortamını** (Environment) algılayabilen ve belirli hedeflere ulaşmak için **Eyleyiciler** (Actuators) aracılığıyla **özerk** biçimde **Eylemler** (Actions) gerçekleştirebilen herhangi bir varlık olarak tanımlanır.
-
-Bu tanım, bir ajanın varlığının dört temel öğesini barındırır. Ortam, ajanın içinde çalıştığı dış dünyadır. Özerk bir araç için ortam, dinamik değişen yol trafiğidir; bir alım satım algoritması için ortam, sürekli değişen finansal piyasadır. Ajan ortamdan yalıtılmış değildir; algılayıcılar aracılığıyla ortam durumunu sürekli algılar. Kameralar, mikrofonlar, radarlar veya çeşitli **Uygulama Programlama Arayüzleri (API'ler)** tarafından döndürülen veri akışları, algısal yeteneklerinin birer uzantısıdır.
-
-Bilgi edindikten sonra ajan, ortamı etkilemek için eyleyiciler aracılığıyla durumunu değiştirerek eylemler gerçekleştirmesi gerekir. Eyleyiciler fiziksel aygıtlar (örneğin robot kolları veya direksiyon) ya da sanal araçlar (örneğin kod çalıştırma veya hizmet çağırma) olabilir.
-
-Ancak bir ajana gerçek anlamda "zeka" kazandıran şey **Özerkliğidir** (Autonomy). Bir ajan, yalnızca dış uyaranlara pasif biçimde yanıt veren ya da önceden belirlenmiş talimatları sıkı sıkıya uygulayan bir program değildir; algılarına ve iç durumuna dayanarak bağımsız kararlar alabilir ve tasarım hedeflerine ulaşabilir. Algıdan eyleme uzanan bu kapalı döngü, tüm ajan davranışlarının temelini oluşturur; Şekil 1.1'de gösterildiği gibi.
-
-### 1.1.1 Geleneksel Perspektiften Ajanlar
-
-**Büyük Dil Modellerinin (LLM'ler)** günümüzdeki dalgasından önce, yapay zeka öncüleri "ajan" kavramını onlarca yıl boyunca araştırmış ve geliştirmiştir. Bugün "geleneksel ajanlar" olarak adlandırdığımız bu paradigmalar, tek bir durağan kavram değil; basitten karmaşığa, pasif tepkiden aktif öğrenmeye uzanan net bir evrimsel yol izlemiştir.
-
-Bu evrimin başlangıç noktası, yapısal olarak en basit olan **Basit Refleks Ajan**'dır. Karar alma çekirdekleri, mühendisler tarafından açıkça tasarlanmış "koşul-eylem" kurallarından oluşur; Şekil 1.2'de gösterildiği gibi. Klasik otomatik termostat bu şekilde çalışır: sensör oda sıcaklığının belirlenen değerin üzerinde olduğunu algılarsa soğutma sistemini devreye alır.
-
-Bu tür ajan tamamen anlık algısal girdiye dayanır; bellek veya tahmin yetenekleri yoktur. Dijitalleştirilmiş bir içgüdü gibidir — güvenilir ve verimli, ama bu yüzden bağlamı anlamayı gerektiren karmaşık görevleri üstlenemez. Sınırlılıkları temel bir soruyu gündeme getirir: Ortamın mevcut durumu, karar almanın tek dayanağı olarak yetersiz kalırsa ajan ne yapmalıdır?
+Bu nedenle bu bölümde temellere dönelim ve birlikte birkaç soruyu keşfedelim: Agent nedir? Ana türleri nelerdir? Yaşadığımız dünya ile nasıl etkileşime girer? Bu tartışmalar aracılığıyla, ilerideki öğrenim ve araştırmanız için sağlam bir temel oluşturmayı umuyoruz.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-1.png" alt="Basit refleks ajanın karar mantığı diyagramı" width="90%"/>
-  <p>Şekil 1.2 Basit refleks ajanın karar mantığı diyagramı</p>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-0.png" alt="Agent ile ortam arasındaki temel etkileşim döngüsü" width="90%"/>
+  <p>Şekil 1.1 Agent ile ortam arasındaki temel etkileşim döngüsü</p>
 </div>
 
-Bu soruyu yanıtlamak için araştırmacılar "durum" kavramını ortaya koydu ve **Model Tabanlı Refleks Ajanları** geliştirdi. Bu tür ajan, doğrudan algılanamayan ortam yönlerini izlemek ve anlamak için kullanılan dahili bir **Dünya Modeli**ne sahiptir. "Dünya şu an nasıl?" sorusunu yanıtlamaya çalışır. Örneğin bir tünel içinden geçen otonom araç, kamerası önündeki aracı geçici olarak algılayamasa bile dahili modeli o aracın varlığına, hızına ve tahmini konumuna ilişkin yargıyı korur. Bu dahili model ajana ilkel bir "bellek" biçimi kazandırır; kararlarını artık yalnızca anlık algıya değil, dünya durumuna dair daha tutarlı ve eksiksiz bir anlayışa dayandırır.
+## 1.1 Agent Nedir?
 
-Ancak yalnızca dünyayı anlamak yeterli değildir; bir ajanın net hedeflere ihtiyacı vardır. Bu durum **Hedef Tabanlı Ajanların** geliştirilmesine yol açtı. Önceki iki türden farklı olarak davranışları artık ortama pasif tepkiyle değil, belirli bir gelecek durumuna yönlendiren eylemleri aktif biçimde seçerek şekillenir. Bu ajanın yanıtlaması gereken soru: "Amacıma ulaşmak için ne yapmalıyım?" Klasik bir örnek, GPS navigasyon sistemidir: hedefiniz ofise ulaşmak ve ajan, harita verilerini (dünya modeli) kullanarak arama algoritmalarıyla (A* gibi) en uygun rotayı planlayacak. Bu tür ajanın temel yetkinliği, geleceği gözetme ve planlama kapasitesinde yansımaktadır.
+Herhangi bir karmaşık kavramı araştırırken en iyi başlangıç noktası özlü bir tanımdır. Yapay zeka alanında agent, **Sensor'lar** (Sensors) aracılığıyla **Ortamını** (Environment) algılayabilen ve belirli hedeflere ulaşmak için **Actuator'lar** (Actuators) aracılığıyla **özerk** biçimde **Eylemler** (Actions) gerçekleştirebilen herhangi bir varlık olarak tanımlanır.
 
-Daha ileri gidildiğinde, gerçek dünya hedefleri çoğu zaman tekil değildir. Yalnızca ofise ulaşmak değil, en kısa sürede, en az yakıtla ve trafiği aşarak ulaşmak da isteriz. Birden fazla hedefe denge kurulması gerektiğinde **Fayda Tabanlı Ajanlar** ortaya çıktı. Bu ajanlar her olası dünya durumuna bir fayda değeri atarlar; bu değer memnuniyet düzeyini temsil eder. Ajanın temel hedefi artık belirli bir duruma ulaşmak değil, beklenen faydayı en üst düzeye çıkarmaktır. Daha karmaşık bir soruyu yanıtlaması gerekir: "Hangi davranış bana en tatminkar sonucu getirir?" Bu mimari, ajanın çatışan hedefleri dengelemeyi öğrenmesini sağlar; kararlarını insan rasyonel tercihine daha yakın kılar.
+Bu tanım, bir agent'ın varlığının dört temel öğesini barındırır. Ortam, agent'ın içinde çalıştığı dış dünyadır. Özerk bir araç için ortam, dinamik değişen yol trafiğidir; bir alım satım algoritması için ortam, sürekli değişen finansal piyasadır. Agent ortamdan yalıtılmış değildir; algılayıcılar aracılığıyla ortam durumunu sürekli algılar. Kameralar, mikrofonlar, radarlar veya çeşitli **API'ler** tarafından döndürülen veri akışları, algısal yeteneklerinin birer uzantısıdır.
 
-Şimdiye kadar ele aldığımız ajanlar, işlevsel açıdan giderek daha karmaşık hale gelse de, temel karar alma mantıkları için — kurallar, modeller veya fayda işlevleri olsun — insan tasarımcıların önceden edinilmiş bilgilerine dayanmaya devam etmektedir. Ya bir ajan, önceden ayarlara gerek duymaksızın ortamla etkileşim yoluyla özerk olarak öğrenebilseydi?
+Bilgi edindikten sonra agent, ortamı etkilemek için eyleyiciler aracılığıyla durumunu değiştirerek eylemler gerçekleştirmesi gerekir. Actuator'lar fiziksel aygıtlar (örneğin robot kolları veya direksiyon) ya da sanal araçlar (örneğin kod çalıştırma veya hizmet çağırma) olabilir.
 
-Bu, **Öğrenen Ajanların** temel fikridir ve **Pekiştirmeli Öğrenme (RL)** bu fikri hayata geçirmenin en temsili yoludur. Bir öğrenen ajan, bir performans öğesi (daha önce ele aldığımız ajan türleri) ve bir öğrenme öğesi içerir. Öğrenme öğesi, performans öğesinin ortamdaki eylemlerinin sonuçlarını gözlemleyerek karar alma stratejisini sürekli biçimde değiştirir.
+Ancak bir ajana gerçek anlamda "zeka" kazandıran şey **Özerkliğidir** (Autonomy). Bir agent, yalnızca dış uyaranlara pasif biçimde yanıt veren ya da önceden belirlenmiş talimatları sıkı sıkıya uygulayan bir program değildir; algılarına ve iç durumuna dayanarak bağımsız kararlar alabilir ve tasarım hedeflerine ulaşabilir. Algıdan eyleme uzanan bu kapalı döngü, tüm agent davranışlarının temelini oluşturur; Şekil 1.1'de gösterildiği gibi.
+
+### 1.1.1 Geleneksel Perspektiften Agent'lar
+
+**LLM'ler** gündemi devralmadan önce, yapay zeka öncüleri "agent" kavramını onlarca yıl boyunca araştırdı ve geliştirdi. Bugün "geleneksel agent'lar" diye andığımız bu paradigmalar tek bir durağan kavram değil; basitten karmaşığa, pasif tepkiden aktif öğrenmeye uzanan net bir evrim çizgisi.
+
+Bu evrimin başlangıç noktası, yapısal olarak en basit olan **Simple Reflex Agent**'dır. Karar alma çekirdekleri, mühendisler tarafından açıkça tasarlanmış "koşul-eylem" kurallarından oluşur; Şekil 1.2'de gösterildiği gibi. Klasik otomatik termostat bu şekilde çalışır: sensör oda sıcaklığının belirlenen değerin üzerinde olduğunu algılarsa soğutma sistemini devreye alır.
+
+Bu tür agent tamamen anlık algısal girdiye dayanır; bellek veya tahmin yetenekleri yoktur. Dijitalleştirilmiş bir içgüdü gibidir — güvenilir ve verimli, ama bu yüzden bağlamı anlamayı gerektiren karmaşık görevleri üstlenemez. Sınırlılıkları temel bir soruyu gündeme getirir: Ortamın mevcut durumu, karar almanın tek dayanağı olarak yetersiz kalırsa agent ne yapmalıdır?
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-1.png" alt="Basit refleks agent'ın karar mantığı diyagramı" width="90%"/>
+  <p>Şekil 1.2 Basit refleks agent'ın karar mantığı diyagramı</p>
+</div>
+
+Bu soruyu yanıtlamak için araştırmacılar "durum" kavramını ortaya koydu ve **Model-Based Reflex Agent'lar** geliştirdi. Bu tür agent, doğrudan algılanamayan ortam yönlerini izlemek ve anlamak için kullanılan dahili bir **World Model**e sahiptir. "Dünya şu an nasıl?" sorusunu yanıtlamaya çalışır. Örneğin bir tünel içinden geçen otonom araç, kamerası önündeki aracı geçici olarak algılayamasa bile dahili modeli o aracın varlığına, hızına ve tahmini konumuna ilişkin yargıyı korur. Bu dahili model agent'a ilkel bir "bellek" biçimi kazandırır; kararlarını artık yalnızca anlık algıya değil, dünya durumuna dair daha tutarlı ve eksiksiz bir anlayışa dayandırır.
+
+Ancak yalnızca dünyayı anlamak yeterli değildir; bir agent'ın net hedeflere ihtiyacı vardır. Bu durum **Goal-Based Agent'ların** geliştirilmesine yol açtı. Önceki iki türden farklı olarak davranışları artık ortama pasif tepkiyle değil, belirli bir gelecek durumuna yönlendiren eylemleri aktif biçimde seçerek şekillenir. Bu agent'ın yanıtlaması gereken soru: "Amacıma ulaşmak için ne yapmalıyım?" Klasik bir örnek, GPS navigasyon sistemidir: hedefiniz ofise ulaşmak ve agent, harita verilerini (world model) kullanarak arama algoritmalarıyla (A* gibi) en uygun rotayı planlayacak. Bu tür agent'ın temel yetkinliği, geleceği gözetme ve planlama kapasitesinde yansımaktadır.
+
+Daha ileri gidildiğinde, gerçek dünya hedefleri çoğu zaman tekil değildir. Yalnızca ofise ulaşmak değil, en kısa sürede, en az yakıtla ve trafiği aşarak ulaşmak da isteriz. Birden fazla hedefe denge kurulması gerektiğinde **Utility-Based Agent'lar** ortaya çıktı. Bu agent'lar her olası dünya durumuna bir fayda değeri atarlar; bu değer memnuniyet düzeyini temsil eder. Agent'ın temel hedefi artık belirli bir duruma ulaşmak değil, beklenen faydayı en üst düzeye çıkarmaktır. Daha karmaşık bir soruyu yanıtlaması gerekir: "Hangi davranış bana en tatminkar sonucu getirir?" Bu mimari, agent'ın çatışan hedefleri dengelemeyi öğrenmesini sağlar; kararlarını insan rasyonel tercihine daha yakın kılar.
+
+Şimdiye kadar ele aldığımız agent'lar, işlevsel açıdan giderek daha karmaşık hale gelse de, temel karar alma mantıkları için — kurallar, modeller veya fayda işlevleri olsun — insan tasarımcıların önceden edinilmiş bilgilerine dayanmaya devam etmektedir. Ya bir agent, önceden ayarlara gerek duymaksızın ortamla etkileşim yoluyla özerk olarak öğrenebilseydi?
+
+Bu, **Learning Agent'ların** temel fikridir ve **Reinforcement Learning (RL)** bu fikri hayata geçirmenin en temsili yoludur. Bir learning agent, bir performans öğesi (daha önce ele aldığımız agent türleri) ve bir öğrenme öğesi içerir. Öğrenme öğesi, performans öğesinin ortamdaki eylemlerinin sonuçlarını gözlemleyerek karar alma stratejisini sürekli biçimde değiştirir.
 
 Satranç oynamayı öğrenen bir YZ'yi hayal edin. Başlangıçta rastgele hamleler yapabilir; ancak sonunda bir oyun kazandığında sistem ona olumlu bir ödül verir. Kapsamlı öz-oyun sayesinde öğrenme öğesi, hangi hamlelerin nihai zafere daha fazla yol açtığını yavaş yavaş keşfeder. AlphaGo Zero, bu anlayışın dönüm noktası bir başarısıdır. Go'nun karmaşık oyununda pekiştirmeli öğrenme yoluyla mevcut insan bilgisini aşan pek çok etkili stratejiyi keşfetmiştir.
 
-Basit termostatlardan dahili modelli araçlara, rota planlayabilen navigasyona, artılarla eksiler arasındaki dengeyi bilen karar vericilere ve son olarak deneyim yoluyla kendi kendini evrimleştirebilen öğrenenlere uzanan bu evrimsel yol, geleneksel yapay zekanın makine zekası inşa etmedeki gelişim yörüngesini ortaya koymaktadır. Günümüzün daha keskin kenarındaki ajan paradigmalarını anlamamız için sağlam ve zorunlu bir temel oluştururlar.
+Basit termostatlardan dahili modelli araçlara, rota planlayabilen navigasyona, artılarla eksiler arasındaki dengeyi bilen karar vericilere ve son olarak deneyim yoluyla kendi kendini evrimleştirebilen öğrenenlere uzanan bu evrimsel yol, geleneksel yapay zekanın makine zekası inşa etmedeki gelişim yörüngesini ortaya koymaktadır. Günümüzün daha keskin kenarındaki agent paradigmalarını anlamamız için sağlam ve zorunlu bir temel oluştururlar.
 
 ### 1.1.2 Büyük Dil Modelleri ile Yeni Paradigma
 
-**GPT (Üretici Önceden Eğitilmiş Dönüştürücü)** ile temsil edilen büyük dil modelleri, ajanların inşa yöntemlerini ve yetenek sınırlarını köklü biçimde değiştirmektedir. Büyük dil modelleri tarafından yönlendirilen LLM ajanları, temel karar alma mekanizmaları bakımından geleneksel ajanlardan temelden farklıdır; bu da onlara tamamen yeni özellikler kazandırır.
+**GPT** ile temsil edilen büyük dil modelleri, agent'ların nasıl inşa edildiğini ve hangi yetenek sınırlarına ulaşabildiğini kökten değiştirdi. LLM tabanlı agent'lar, temel karar alma mekanizmaları açısından geleneksel agent'lardan belirgin şekilde ayrılır ve bu da onlara yeni bir kapasite seviyesi kazandırır.
 
-Bu dönüşüm, çekirdek motor, bilgi kaynağı ve etkileşim biçimi gibi birden fazla boyutta iki tarafın karşılaştırılmasından açıkça görülmektedir; Tablo 1.1'de gösterildiği gibi. Kısaca söylemek gerekirse, geleneksel ajanların yetenekleri mühendislerin açık programlamasından ve bilgi inşasından kaynaklanmakta; davranış örüntüleri belirleyici ve sınırlıdır. LLM ajanları ise büyük veriler üzerinde önceden eğitim yoluyla örtük dünya modelleri ve güçlü ortaya çıkan yetenekler edinmiş; karmaşık görevleri daha esnek ve genel bir biçimde ele alabilmektedir.
+Bu dönüşüm, çekirdek motor, bilgi kaynağı ve etkileşim biçimi gibi birden fazla boyutta iki tarafın karşılaştırılmasından açıkça görülmektedir; Tablo 1.1'de gösterildiği gibi. Kısaca söylemek gerekirse, geleneksel agent'ların yetenekleri mühendislerin açık programlamasından ve bilgi inşasından kaynaklanmakta; davranış örüntüleri belirleyici ve sınırlıdır. LLM agent'ları ise büyük veriler üzerinde önceden eğitim yoluyla örtük dünya modelleri ve güçlü ortaya çıkan yetenekler edinmiş; karmaşık görevleri daha esnek ve genel bir biçimde ele alabilmektedir.
 
 <div align="center">
-  <p>Tablo 1.1 Geleneksel ajanlar ile LLM güdümlü ajanlar arasındaki temel karşılaştırma</p>
-  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-2.png" alt="Geleneksel ajanlar ve LLM güdümlü ajanlar karşılaştırma tablosu" width="90%"/>
+  <p>Tablo 1.1 Geleneksel agent'lar ile LLM güdümlü agent'lar arasındaki temel karşılaştırma</p>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-2.png" alt="Geleneksel agent'lar ve LLM güdümlü agent'lar karşılaştırma tablosu" width="90%"/>
 </div>
 
-Bu fark, LLM ajanlarının üst düzey, belirsiz ve bağlam zengini doğal dil talimatlarını doğrudan işleyebilmesini sağlar. Bunu göstermek için "akıllı seyahat asistanı" örneğini kullanalım.
+Bu fark, LLM agent'larının üst düzey, belirsiz ve bağlam zengini doğal dil talimatlarını doğrudan işleyebilmesini sağlar. Bunu göstermek için "akıllı seyahat asistanı" örneğini kullanalım.
 
-LLM ajanlarının ortaya çıkışından önce bir gezi planlamak, kullanıcıların birden fazla özel uygulama arasında (hava durumu, haritalar, rezervasyon siteleri gibi) manuel geçiş yapmak zorunda kaldığı anlamına geliyordu ve bilgi entegrasyonu ile karar alma rolü kullanıcının kendisine düşüyordu. Oysa bir LLM ajanı bu süreci entegre edebilir. "Xiamen'e bir gezi planla" gibi belirsiz bir talimat alındığında çalışma yöntemi şu noktaları yansıtır:
+LLM agent'larının ortaya çıkışından önce bir gezi planlamak, kullanıcıların birden fazla özel uygulama arasında (hava durumu, haritalar, rezervasyon siteleri gibi) manuel geçiş yapmak zorunda kaldığı anlamına geliyordu ve bilgi entegrasyonu ile karar alma rolü kullanıcının kendisine düşüyordu. Oysa bir LLM agentı bu süreci entegre edebilir. "Xiamen'e bir gezi planla" gibi belirsiz bir talimat alındığında çalışma yöntemi şu noktaları yansıtır:
 
-- **Planlama ve Akıl Yürütme**: Ajan önce bu üst düzey hedefi bir dizi mantıksal alt göreve ayrıştırır; örneğin: `[Seyahat tercihlerini doğrula] -> [Destinasyon bilgilerini sorgula] -> [Seyahat planı taslağı oluştur] -> [Bilet ve konaklama rezervasyonu yap]`. Bu, model odaklı dahili bir planlama sürecidir.
-- **Araç Kullanımı**: Planı uygularken ajan bilgi açıklarını tespit eder ve bunları doldurmak için dış araçları proaktif biçimde çağırır. Örneğin, gerçek zamanlı hava durumu almak için bir hava durumu sorgu arayüzü çağırır ve "yağmur tahmin ediliyor" bilgisine dayanarak sonraki planlamada kapalı alan etkinlikleri önermeye yönelir.
-- **Dinamik Ayarlama**: Etkileşim sırasında ajan kullanıcı geri bildirimlerini (örneğin "bu otel bütçemi aşıyor") yeni kısıtlamalar olarak değerlendirir ve sonraki eylemleri buna göre ayarlayarak yeni gereksinimleri karşılayan seçenekleri yeniden arar ve önerir. "**hava durumunu kontrol et → planı düzenle → otel rezervasyonu yap**" sürecinin tamamı, bağlama dayalı dinamik davranış değiştirme yeteneğini ortaya koyar.
+- **Planlama ve Akıl Yürütme**: Agent önce bu üst düzey hedefi bir dizi mantıksal alt göreve ayrıştırır; örneğin: `[Seyahat tercihlerini doğrula] -> [Destinasyon bilgilerini sorgula] -> [Seyahat planı taslağı oluştur] -> [Bilet ve konaklama rezervasyonu yap]`. Bu, model odaklı dahili bir planlama sürecidir.
+- **Araç Kullanımı**: Planı uygularken agent bilgi açıklarını tespit eder ve bunları doldurmak için dış araçları proaktif biçimde çağırır. Örneğin, gerçek zamanlı hava durumu almak için bir hava durumu sorgu arayüzü çağırır ve "yağmur tahmin ediliyor" bilgisine dayanarak sonraki planlamada kapalı alan etkinlikleri önermeye yönelir.
+- **Dinamik Ayarlama**: Etkileşim sırasında agent kullanıcı geri bildirimlerini (örneğin "bu otel bütçemi aşıyor") yeni kısıtlamalar olarak değerlendirir ve sonraki eylemleri buna göre ayarlayarak yeni gereksinimleri karşılayan seçenekleri yeniden arar ve önerir. "**hava durumunu kontrol et → planı düzenle → otel rezervasyonu yap**" sürecinin tamamı, bağlama dayalı dinamik davranış değiştirme yeteneğini ortaya koyar.
 
 Özetle, uzmanlaşmış otomasyon araçları geliştirmekten sorunları özerk biçimde çözebilen sistemler inşa etmeye geçiş yaşıyoruz. Artık çekirdek olan kodlama değil; genel bir "beyin"i planlama, hareket etme ve öğrenme konusunda yönlendirmektir.
 
-### 1.1.3 Ajan Türleri
+### 1.1.3 Agent Türleri
 
-Yukarıdaki ajan evrimi incelemesinin ardından bu bölüm, ajanları üç tamamlayıcı boyuttan sınıflandıracaktır.
+Yukarıdaki agent evrimi incelemesinin ardından bu bölüm, agent'ları üç tamamlayıcı boyuttan sınıflandıracaktır.
 
 **(1) Dahili Karar Mimarisine Dayalı Sınıflandırma**
 
-İlk sınıflandırma boyutu, ajanın dahili karar mimarisinin karmaşıklığına dayanmaktadır. Bu perspektif, "Yapay Zeka: Modern Bir Yaklaşım"<sup>[1]</sup> adlı eserde sistematik biçimde ortaya konulmuştur. 1.1.1. Bölümde açıklandığı gibi, geleneksel ajanların evrimsel yolu başlı başına en klasik sınıflandırma merdivenini oluşturur: basit **reaktif** ajanlardan dahili modelleri tanıtan **model tabanlı** ajanlara, ardından daha ileriye yönelik **hedef tabanlı** ve **fayda tabanlı** ajanlara uzanır. Ayrıca **öğrenme yeteneği**, yukarıdaki tüm türlere kazandırılabilen bir üst yetenektir; onların deneyimle kendi kendini iyileştirmesini sağlar.
+İlk sınıflandırma boyutu, agent'ın dahili karar mimarisinin karmaşıklığına dayanmaktadır. Bu perspektif, "Yapay Zeka: Modern Bir Yaklaşım"<sup>[1]</sup> adlı eserde sistematik biçimde ortaya konulmuştur. 1.1.1. Bölümde açıklandığı gibi, geleneksel agent'ların evrimsel yolu başlı başına en klasik sınıflandırma merdivenini oluşturur: basit **reactive** agent'lardan dahili modelleri tanıtan **model-based** agent'lara, ardından daha ileriye yönelik **goal-based** ve **utility-based** agent'lara uzanır. Ayrıca **learning capability**, yukarıdaki tüm türlere kazandırılabilen bir üst yetenektir; onların deneyimle kendi kendini iyileştirmesini sağlar.
 
 **(2) Zaman ve Reaktiviteye Dayalı Sınıflandırma**
 
-Dahili mimari karmaşıklığının yanı sıra ajanlar, karar alma işleminin zaman boyutundan da sınıflandırılabilir. Bu perspektif, bir ajanın bilgi aldıktan hemen sonra mı yoksa kasıtlı bir planlama sonucunda mı eyleme geçtiğine odaklanır. Bu, ajan tasarımında temel bir değiş tokuşu ortaya koyar: **Reaktivite** (hız) ile **Müzakere** (en uygun çözüm) arasındaki denge; Şekil 1.3'te gösterildiği gibi.
+Dahili mimari karmaşıklığının yanı sıra agent'lar, karar alma işleminin zaman boyutundan da sınıflandırılabilir. Bu perspektif, bir agent'ın bilgi aldıktan hemen sonra mı yoksa kasıtlı bir planlama sonucunda mı eyleme geçtiğine odaklanır. Bu, agent tasarımında temel bir değiş tokuşu ortaya koyar: **Reaktivite** (hız) ile **Müzakere** (en uygun çözüm) arasındaki denge; Şekil 1.3'te gösterildiği gibi.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-3.png" alt="Ajan karar süresi ile kalite arasındaki ilişki" width="90%"/>
-  <p>Şekil 1.3 Ajan karar süresi ile kalite arasındaki ilişki</p>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-3.png" alt="Agent karar süresi ile kalite arasındaki ilişki" width="90%"/>
+  <p>Şekil 1.3 Agent karar süresi ile kalite arasındaki ilişki</p>
 </div>
 
-- **Reaktif Ajanlar**
+- **Reaktif Agent'lar**
 
-Bu tür ajan, çevresel uyaranlara son derece düşük karar gecikmesiyle neredeyse anlık yanıtlar verir. Genellikle algıdan eyleme doğrudan bir eşleşme izler; gelecekle ilgili planlama yok veya minimum düzeydedir. Yukarıda bahsedilen **basit reaktif** ve **model tabanlı** ajanlar bu kategoriye girer.
+Bu tür agent, çevresel uyaranlara son derece düşük karar gecikmesiyle neredeyse anlık yanıtlar verir. Genellikle algıdan eyleme doğrudan bir eşleşme izler; gelecekle ilgili planlama yok veya minimum düzeydedir. Yukarıda bahsedilen **basit reaktif** ve **model tabanlı** agent'lar bu kategoriye girer.
 
-Temel avantajları **hız ve düşük hesaplama yükü**nde yatmaktadır; bu, hızlı karar almayı gerektiren dinamik ortamlarda kritik önem taşır. Örneğin bir aracın hava yastığı sistemi çarpışmadan milisaniyeler içinde tepki vermek zorundadır; herhangi bir gecikme ciddi sonuçlara yol açabilir. Benzer biçimde, yüksek frekanslı alım satım robotları anlık fırsatları yakalamak için reaktif karar almaya güvenir. Ancak bu hızın bedeli "kısa görüşlülük"tür. Uzun vadeli planlama eksikliği nedeniyle reaktif ajanlar kolayca yerel optimumlara düşer ve çok adımlı koordinasyon gerektiren karmaşık görevlerde zorlanır.
+Temel avantajları **hız ve düşük hesaplama yükü**nde yatmaktadır; bu, hızlı karar almayı gerektiren dinamik ortamlarda kritik önem taşır. Örneğin bir aracın hava yastığı sistemi çarpışmadan milisaniyeler içinde tepki vermek zorundadır; herhangi bir gecikme ciddi sonuçlara yol açabilir. Benzer biçimde, yüksek frekanslı alım satım robotları anlık fırsatları yakalamak için reaktif karar almaya güvenir. Ancak bu hızın bedeli "kısa görüşlülük"tür. Uzun vadeli planlama eksikliği nedeniyle reaktif agent'lar kolayca yerel optimumlara düşer ve çok adımlı koordinasyon gerektiren karmaşık görevlerde zorlanır.
 
-- **Müzakereli Ajanlar**
+- **Müzakereli Agent'lar**
 
-Reaktif ajanların tersine, müzakereli (veya planlayan) ajanlar eylem almadan önce karmaşık düşünce ve planlama süreçlerine girer. Algılara anında tepki vermez; önce dahili dünya modellerini kullanarak çeşitli gelecek olasılıklarını sistematik biçimde araştırır, farklı eylem dizilerinin sonuçlarını değerlendirir ve hedeflere en uygun yolu bulmayı umar. **Hedef tabanlı** ve **fayda tabanlı** ajanlar tipik müzakereli ajanlardır.
+Reactive agent'ların tersine, müzakereli (veya planlayan) agent'lar eylem almadan önce karmaşık düşünce ve planlama süreçlerine girer. Algılara anında tepki vermez; önce dahili world model'ları kullanarak çeşitli gelecek olasılıklarını sistematik biçimde araştırır, farklı eylem dizilerinin sonuçlarını değerlendirir ve hedeflere en uygun yolu bulmayı umar. **Goal-Based** ve **Utility-Based** agent'lar tipik müzakereli agent'lardır.
 
-Karar alma süreçleri bir satranç oyuncusuna benzetilebilir. Yalnızca anlık hamleye bakmaz; olası rakip yanıtlarını önceden görür ve sonraki hamleleri, hatta onlarca hamleyi planlar. Bu müzakere kapasitesi onların uzun vadeli vizyon gerektiren karmaşık görevleri üstlenmesini sağlar: bir iş planı oluşturmak ya da uzun bir seyahat planlamak gibi. Avantajları kararlarının stratejik niteliğinde ve öngörüsünde yatar. Ancak bu avantajın öteki yüzü yüksek zaman ve hesaplama maliyetidir. Hızla değişen ortamlarda, bir müzakereli ajan derin düşüncenin içindeyken en iyi eylem anı çoktan geçmiş olabilir.
+Karar alma süreçleri bir satranç oyuncusuna benzetilebilir. Yalnızca anlık hamleye bakmaz; olası rakip yanıtlarını önceden görür ve sonraki hamleleri, hatta onlarca hamleyi planlar. Bu müzakere kapasitesi onların uzun vadeli vizyon gerektiren karmaşık görevleri üstlenmesini sağlar: bir iş planı oluşturmak ya da uzun bir seyahat planlamak gibi. Avantajları kararlarının stratejik niteliğinde ve öngörüsünde yatar. Ancak bu avantajın öteki yüzü yüksek zaman ve hesaplama maliyetidir. Hızla değişen ortamlarda, bir müzakereli agent derin düşüncenin içindeyken en iyi eylem anı çoktan geçmiş olabilir.
 
-- **Hibrit Ajanlar**
+- **Hibrit Agent'lar**
 
-Gerçek dünyadaki karmaşık görevler çoğu zaman hem anlık tepkilere hem de uzun vadeli planlamaya ihtiyaç duyar. Örneğin daha önce bahsedilen akıllı seyahat asistanı, kullanıcının anlık geri bildirimlerine (örneğin "bu otel çok pahalı") dayanarak önerileri ayarlamak (reaktivite) ile tam bir çok günlük seyahat planı hazırlamak (müzakere) arasında denge kurmalıdır. Bu nedenle hibrit ajanlar ortaya çıktı; her ikisinin avantajlarını birleştirmeyi ve tepki ile planlama arasında denge kurmayı hedefler.
+Gerçek dünyadaki karmaşık görevler çoğu zaman hem anlık tepkilere hem de uzun vadeli planlamaya ihtiyaç duyar. Örneğin daha önce bahsedilen akıllı seyahat asistanı, kullanıcının anlık geri bildirimlerine (örneğin "bu otel çok pahalı") dayanarak önerileri ayarlamak (reaktivite) ile tam bir çok günlük seyahat planı hazırlamak (müzakere) arasında denge kurmalıdır. Bu nedenle hibrit agent'lar ortaya çıktı; her ikisinin avantajlarını birleştirmeyi ve tepki ile planlama arasında denge kurmayı hedefler.
 
-Klasik bir hibrit mimari hiyerarşik tasarımdır: alt katmanda acil durumları ve temel eylemleri ele alan hızlı reaktif modül; üst katmanda ise uzun vadeli hedefleri belirlemekten sorumlu müzakereli planlama modülü yer alır. Modern LLM ajanları daha esnek bir hibrit mod sergiler. Genellikle "düşün-eyle-gözlemle" döngüsünde çalışır ve her iki modu akıllıca entegre eder:
+Klasik bir hibrit mimari hiyerarşik tasarımdır: alt katmanda acil durumları ve temel eylemleri ele alan hızlı reaktif modül; üst katmanda ise uzun vadeli hedefleri belirlemekten sorumlu müzakereli planlama modülü yer alır. Modern LLM agent'ları daha esnek bir hibrit mod sergiler. Genellikle "düşün-eyle-gözlemle" döngüsünde çalışır ve her iki modu akıllıca entegre eder:
 
 - **Akıl Yürütme**: "Düşünme" aşamasında LLM mevcut durumu analiz eder ve sonraki makul eylemi planlar. Bu müzakereli bir süreçtir.
-- **Eylem ve Gözlem**: "Eylem" ve "gözlem" aşamalarında ajan dış araçlarla veya ortamla etkileşime girer ve anında geri bildirim alır. Bu reaktif bir süreçtir.
+- **Eylem ve Gözlem**: "Eylem" ve "gözlem" aşamalarında agent dış araçlarla veya ortamla etkileşime girer ve anında geri bildirim alır. Bu reaktif bir süreçtir.
 
-Bu yaklaşım sayesinde ajan, uzun vadeli planlama gerektiren büyük bir görevi bir dizi "planlama-tepki" mikro döngüsüne ayrıştırır. Böylece anlık çevresel değişimlere esnek yanıt verirken tutarlı adımlarla karmaşık uzun vadeli hedefleri de tamamlar.
+Bu yaklaşım sayesinde agent, uzun vadeli planlama gerektiren büyük bir görevi bir dizi "planlama-tepki" mikro döngüsüne ayrıştırır. Böylece anlık çevresel değişimlere esnek yanıt verirken tutarlı adımlarla karmaşık uzun vadeli hedefleri de tamamlar.
 
 **(3) Bilgi Temsiline Dayalı Sınıflandırma**
 
-Bu, ajanların karar almak için kullandıkları bilginin "zihinlerinde" ne biçimde var olduğunu araştıran daha temel bir sınıflandırma boyutudur. Bu soru, yapay zeka alanında yarım asrı aşkın süredir devam eden ve iki belirgin farklı YZ kültürünü şekillendiren tartışmanın merkezindedir.
+Bu, agent'ların karar almak için kullandıkları bilginin "zihinlerinde" ne biçimde var olduğunu araştıran daha temel bir sınıflandırma boyutudur. Bu soru, yapay zeka alanında yarım asrı aşkın süredir devam eden ve iki belirgin farklı YZ kültürünü şekillendiren tartışmanın merkezindedir.
 
-- **Sembolik YZ**
+- **Symbolic AI**
 
 Sembolizm, geleneksel yapay zeka olarak da adlandırılır; temel inancı şudur: zeka, semboller üzerindeki mantıksal işlemlerden kaynaklanır. Buradaki semboller insan tarafından okunabilir varlıklardır (kelimeler, kavramlar gibi) ve işlemler kesin mantıksal kurallara uyar; Şekil 1.4'ün sol tarafında gösterildiği gibi. Bu, dünya bilgisini açık kural tabanlarına ve bilgi grafiklerine düzenleyen titiz bir kütüphaneci gibidir.
 
 Temel avantajı şeffaflık ve yorumlanabilirliktir. Akıl yürütme adımları açık olduğundan karar alma süreci tamamen izlenebilir; bu, finans ve sağlık gibi yüksek riskli alanlarda hayati önem taşır. Ancak "Aşil topuğu" kırılganlıktır: eksiksiz bir kural sistemine dayanır; oysa belirsizlik ve istisnalarla dolu gerçek dünyada kapsanmayan herhangi bir yeni durum sistem çöküşüne yol açabilir. Bu, "bilgi edinme darboğazı" olarak bilinir.
 
-- **Alt-Sembolik YZ**
+- **Sub-Symbolic AI**
 
 Alt-sembolizm, yani bağlantıcılık, tamamen farklı bir tablo sunar. Burada bilgi açık kurallar değil; çok sayıda nörondan oluşan karmaşık bir ağda örtük biçimde dağılmış olup büyük verilerden öğrenilen istatistiksel örüntüleri temsil eder. Sinir ağları ve derin öğrenme temsilcileridir.
 
-Şekil 1.4'ün ortasında gösterildiği gibi, sembolik YZ bir kütüphaneciyse alt-sembolik YZ, mırıldanan bir bebek gibidir. "Kedilerin dört bacağı var, tüylüdür ve miyavlar" gibi kuralları öğrenerek değil; binlerce kedi resmi gördükten sonra beynindeki sinir ağı "kedi" kavramının görsel örüntüsünü tanımlayabilir hale gelir. Bu yaklaşımın gücü, örüntü tanıma kapasitesinde ve gürültülü veriye karşı sağlamlığında yatar. Sembolik YZ için son derece güç olan görüntü ve ses gibi yapılandırılmamış verileri kolaylıkla işleyebilir.
+Şekil 1.4'ün ortasında gösterildiği gibi, Symbolic AI titiz bir kütüphaneciyse Sub-Symbolic AI mırıldanan bir bebek gibidir. "Kedilerin dört bacağı var, tüylüdür ve miyavlar" gibi kuralları ezberleyerek değil; binlerce kedi resmi gördükten sonra sinir ağı "kedi" kavramının görsel örüntüsünü ayırt etmeyi öğrenir. Bu yaklaşımın gücü, örüntü tanıma kapasitesinde ve gürültülü veriye karşı dayanıklılığında yatar. Symbolic AI için çok zor olan görüntü ve ses gibi yapılandırılmamış verileri rahatlıkla işler.
 
 Ancak bu güçlü sezgisel kapasite opaklaşmayla birlikte gelir. Alt-sembolik sistemler genellikle bir **Kara Kutu** olarak görülür. Bir resimdeki kediyi şaşırtıcı bir doğrulukla tanımlayabilir; ama "neden bunun kedi olduğunu düşünüyorsun?" diye sorulduğunda mantıksal açıklama sunamaz. Ayrıca salt mantıksal akıl yürütme görevlerinde zayıf kalır ve zaman zaman makul görünen ama olgusal açıdan yanlış halüsinasyonlar üretir.
 
-- **Nöro-Sembolik YZ**
+- **Neuro-Symbolic AI**
 
-Uzun süre sembolizm ve alt-sembolizm iki paralel çizgi gibi gelişti. Yukarıdaki iki paradigmanın sınırlılıklarını aşmak için "büyük uzlaşma" fikri ortaya çıkmaya başladı: nöro-sembolik YZ, ya da nöro-sembolik hibrit olarak da adlandırılır. Hedefi her iki paradigmanın avantajlarını birleştirmek; sinir ağları gibi veriden öğrenebilen ve sembolik sistemler gibi mantıksal akıl yürütme yapabilen hibrit bir ajan yaratmaktır. Algı ile biliş, sezgi ile akıl arasındaki uçurumu kapatmaya çalışır. Nobel ödüllü ekonomist Daniel Kahneman'ın "Hızlı ve Yavaş Düşünme" adlı eserinde öne sürdüğü ikili sistem teorisi<sup>[2]</sup>, nöro-sembolizmi anlamak için mükemmel bir analoji sunar; Şekil 1.4'te gösterildiği gibi:
+Uzun süre Symbolic AI ve Sub-Symbolic AI iki paralel çizgi gibi gelişti. Bu iki paradigmanın sınırlılıklarını aşmak için "büyük uzlaşma" fikri ortaya çıktı: **Neuro-Symbolic AI**. Hedef, her iki yaklaşımın güçlü yanlarını birleştirmek; sinir ağları gibi veriden öğrenebilen ve sembolik sistemler gibi mantıksal akıl yürütebilen hibrit bir agent üretmek. Bu yaklaşım, algı ile biliş; sezgi ile akıl arasındaki boşluğu kapatmaya çalışır. Nobel ödüllü ekonomist Daniel Kahneman'ın "Hızlı ve Yavaş Düşünme" adlı eserinde öne sürdüğü ikili sistem teorisi<sup>[2]</sup>, bunu anlamak için iyi bir analoji sunar:
 
-- **Sistem 1**, hızlı, sezgisel, paralel düşünme modudur; alt-sembolik YZ'nin güçlü örüntü tanıma kapasitesine benzer.
-- **Sistem 2**, yavaş, metodolojik, mantık tabanlı müzakereli düşüncedir; tıpkı sembolik YZ'nin akıl yürütme süreci gibi.
+- **Sistem 1**, hızlı, sezgisel, paralel düşünme modudur; Sub-Symbolic AI'nin güçlü örüntü tanıma kapasitesine benzer.
+- **Sistem 2**, yavaş, metodolojik, mantık tabanlı müzakereli düşüncedir; tıpkı Symbolic AI'nin akıl yürütme süreci gibi.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-4.png" alt="Sembolizm, alt-sembolizm ve nöro-sembolik hibridin bilgi temsili paradigmaları" width="90%"/>
   <p>Şekil 1.4 Sembolizm, alt-sembolizm ve nöro-sembolik hibridin bilgi temsili paradigmaları</p>
 </div>
 
-İnsan zekası bu iki sistemin ortak çalışmasından kaynaklanır. Benzer biçimde, gerçek anlamda sağlam bir YZ da her ikisinin güçlü yönlerini birleştirmek zorundadır. Büyük dil modeli güdümlü ajanlar, nöro-sembolizmin mükemmel pratik bir örneğidir. Çekirdeği devasa bir sinir ağıdır; bu ona örüntü tanıma ve dil üretme yetenekleri kazandırır. Ancak çalışırken düşünceler, planlar veya API çağrıları gibi açık, işlenebilir semboller olan yapılandırılmış ara adımlar üretir. Bu yaklaşımla algı ile biliş, sezgi ile akıl arasında ön düzeyde bir birleşim sağlar.
+İnsan zekası bu iki sistemin ortak çalışmasından kaynaklanır. Benzer biçimde, gerçek anlamda sağlam bir YZ da her ikisinin güçlü yönlerini birleştirmek zorundadır. Büyük dil modeli güdümlü agent'lar, nöro-sembolizmin mükemmel pratik bir örneğidir. Çekirdeği devasa bir sinir ağıdır; bu ona örüntü tanıma ve dil üretme yetenekleri kazandırır. Ancak çalışırken düşünceler, planlar veya API çağrıları gibi açık, işlenebilir semboller olan yapılandırılmış ara adımlar üretir. Bu yaklaşımla algı ile biliş, sezgi ile akıl arasında ön düzeyde bir birleşim sağlar.
 
-## 1.2 Ajanların Bileşimi ve Çalışma İlkeleri
+## 1.2 Agent'ların Bileşimi ve Çalışma İlkeleri
 
 ### 1.2.1 Görev Ortamı Tanımı
 
-Bir ajanın nasıl çalıştığını anlamak için önce içinde faaliyet gösterdiği **görev ortamını** anlamalıyız. Yapay zeka alanında, **PEAS modeli** bir görev ortamını kesin biçimde tanımlamak için kullanılır; **Performans ölçüsü, Ortam, Eyleyiciler ve Algılayıcılar** boyutlarını analiz eder. Daha önce bahsedilen akıllı seyahat asistanı örneğini kullanarak, aşağıdaki Tablo 1.2, görev ortamını belirtmek için PEAS modelinin nasıl kullanılacağını göstermektedir.
+Bir agent'ın nasıl çalıştığını anlamak için önce içinde faaliyet gösterdiği **görev ortamını** anlamalıyız. Yapay zeka alanında, **PEAS modeli** bir görev ortamını kesin biçimde tanımlamak için kullanılır; **Performans ölçüsü, Ortam, Actuator'lar ve Sensor'lar** boyutlarını analiz eder. Daha önce bahsedilen akıllı seyahat asistanı örneğini kullanarak, aşağıdaki Tablo 1.2, görev ortamını belirtmek için PEAS modelinin nasıl kullanılacağını göstermektedir.
 
 <div align="center">
   <p>Tablo 1.2 Akıllı seyahat asistanının PEAS açıklaması</p>
   <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-6.png" alt="Akıllı seyahat asistanı PEAS tablosu" width="90%"/>
 </div>
 
-Pratikte LLM ajanlarının çalıştığı dijital ortam, ajan tasarımını doğrudan etkileyen birkaç karmaşık özellik sergiler.
+Pratikte LLM agent'larının çalıştığı dijital ortam, agent tasarımını doğrudan etkileyen birkaç karmaşık özellik sergiler.
 
-İlk olarak ortam genellikle **kısmen gözlemlenebilir**dir. Örneğin bir seyahat asistanı uçuşları sorguladığında, tüm havayollarından tüm gerçek zamanlı koltuk bilgilerini aynı anda edinemez. Yalnızca çağırdığı uçuş rezervasyon API'sinin döndürdüğü kısmi verileri görebilir; bu durum ajanın bellek (sorgulanan güzergahları hatırlama) ve keşif (farklı tarihler deneme) kapasitelerine sahip olmasını gerektirir.
+İlk olarak ortam genellikle **kısmen gözlemlenebilir**dir. Örneğin bir seyahat asistanı uçuşları sorguladığında, tüm havayollarından tüm gerçek zamanlı koltuk bilgilerini aynı anda edinemez. Yalnızca çağırdığı uçuş rezervasyon API'sinin döndürdüğü kısmi verileri görebilir; bu durum agent'ın bellek (sorgulanan güzergahları hatırlama) ve keşif (farklı tarihler deneme) kapasitelerine sahip olmasını gerektirir.
 
-İkinci olarak eylemlerin sonuçları her zaman belirleyici değildir. Sonuçların öngörülebilirliğine göre ortamlar **belirleyici** ve **stokastik** olarak ayrılır. Seyahat asistanının görev ortamı tipik bir stokastik ortamdır. Bilet fiyatlarını ararken birbirine yakın iki çağrı farklı bilet fiyatları ve kalan koltuk sayıları döndürebilir; bu durum ajanın belirsizliği ele alma, değişimleri izleme ve zamanında karar alma kapasitesine sahip olmasını gerektirir.
+İkinci olarak eylemlerin sonuçları her zaman belirleyici değildir. Sonuçların öngörülebilirliğine göre ortamlar **belirleyici** ve **stokastik** olarak ayrılır. Seyahat asistanının görev ortamı tipik bir stokastik ortamdır. Bilet fiyatlarını ararken birbirine yakın iki çağrı farklı bilet fiyatları ve kalan koltuk sayıları döndürebilir; bu durum agent'ın belirsizliği ele alma, değişimleri izleme ve zamanında karar alma kapasitesine sahip olmasını gerektirir.
 
-Ayrıca ortamda başka aktörler bulunabilir; bu da **çok-ajan** ortamı oluşturur. Seyahat asistanı için diğer kullanıcıların rezervasyon davranışları, diğer otomatik betikler ve hatta havayollarının dinamik fiyatlandırma sistemleri, ortamdaki diğer "ajanlardır". Eylemlerinin tamamı (örneğin son indirimli bileti rezerve etmek) seyahat asistanının içinde çalıştığı ortamın durumunu doğrudan değiştirir; ajanın hızlı yanıt verme ve strateji seçme kapasitesine daha yüksek talepler getirir.
+Ayrıca ortamda başka aktörler bulunabilir; bu da **multi-agent** ortamı oluşturur. Seyahat asistanı için diğer kullanıcıların rezervasyon davranışları, diğer otomatik betikler ve hatta havayollarının dinamik fiyatlandırma sistemleri, ortamdaki diğer "agent'lardır". Eylemlerinin tamamı (örneğin son indirimli bileti rezerve etmek) seyahat asistanının içinde çalıştığı ortamın durumunu doğrudan değiştirir; agent'ın hızlı yanıt verme ve strateji seçme kapasitesine daha yüksek talepler getirir.
 
-Son olarak neredeyse tüm görevler **ardışık** ve **dinamik** ortamlarda gerçekleşir. "Ardışık", mevcut eylemlerin geleceği etkilediği anlamına gelir; "dinamik" ise ajan karar verirken ortamın kendisinin değişebileceği anlamına gelir. Bu, ajanın "algıla-düşün-eyle-gözlemle" döngüsünün sürekli değişen bir dünyaya hızla ve esnek biçimde uyum sağlayabilmesini zorunlu kılar.
+Son olarak neredeyse tüm görevler **ardışık** ve **dinamik** ortamlarda gerçekleşir. "Ardışık", mevcut eylemlerin geleceği etkilediği anlamına gelir; "dinamik" ise agent karar verirken ortamın kendisinin değişebileceği anlamına gelir. Bu, agent'ın "algıla-düşün-eyle-gözlemle" döngüsünün sürekli değişen bir dünyaya hızla ve esnek biçimde uyum sağlayabilmesini zorunlu kılar.
 
-### 1.2.2 Ajan Çalışma Mekanizması
+### 1.2.2 Agent Çalışma Mekanizması
 
-Bir ajanın içinde faaliyet gösterdiği görev ortamını tanımladıktan sonra çekirdek çalışma mekanizmasını keşfedelim. Bir ajan görevleri tek seferinde tamamlamaz; sürekli bir döngü aracılığıyla ortamla etkileşime girer. Bu temel mekanizma **Ajan Döngüsü** olarak adlandırılır. Şekil 1.5'te gösterildiği gibi bu döngü, ajan ile ortam arasındaki dinamik etkileşim sürecini tanımlar; özerk davranışın temelini oluşturur.
+Bir agent'ın içinde faaliyet gösterdiği görev ortamını tanımladıktan sonra çekirdek çalışma mekanizmasını keşfedelim. Bir agent görevleri tek seferinde tamamlamaz; sürekli bir döngü aracılığıyla ortamla etkileşime girer. Bu temel mekanizma **Agent Döngüsü** olarak adlandırılır. Şekil 1.5'te gösterildiği gibi bu döngü, agent ile ortam arasındaki dinamik etkileşim sürecini tanımlar; özerk davranışın temelini oluşturur.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-5.png" alt="Ajan-ortam etkileşiminin temel döngüsü" width="90%"/>
-  <p>Şekil 1.5 Ajan-ortam etkileşiminin temel döngüsü</p>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-5.png" alt="Agent-ortam etkileşiminin temel döngüsü" width="90%"/>
+  <p>Şekil 1.5 Agent-ortam etkileşiminin temel döngüsü</p>
 </div>
 
 Bu döngü esas olarak birbiriyle bağlantılı aşağıdaki aşamaları içerir:
 
-1. **Algılama**: Döngünün başlangıç noktasıdır. Ajan, algılayıcıları (örneğin API dinleme portları, kullanıcı giriş arayüzleri) aracılığıyla ortamdan girdi bilgilerini alır. Bu bilgiler, yani **Gözlem** (Observation), kullanıcının başlangıç talimatı ya da önceki eylemin neden olduğu çevre durumu değişikliklerine ilişkin geri bildirim olabilir.
-2. **Düşünme**: Gözlem bilgilerini aldıktan sonra ajan çekirdek karar alma aşamasına girer. LLM ajanları için bu genellikle büyük dil modelleri tarafından yönlendirilen dahili bir akıl yürütme sürecidir. Şekilde gösterildiği gibi, "düşünce" aşaması iki temel bağlantıya ayrılabilir:
-   - **Planlama**: Mevcut gözlemlere ve dahili belleğine dayanarak ajan göreve ve ortama ilişkin anlayışını günceller; eylem planını formüle eder veya ayarlar. Bu, karmaşık hedeflerin bir dizi daha somut alt göreve ayrıştırılmasını içerebilir.
-   - **Araç Seçimi**: Mevcut plana dayanarak ajan, mevcut araç kitaplığından bir sonraki adımı uygulamak için en uygun aracı seçer ve o aracı çağırmak için gereken belirli parametreleri belirler.
-3. **Eylem**: Karar alma tamamlandığında ajan, eyleyicileri aracılığıyla belirli eylemleri gerçekleştirir. Bu genellikle seçilen bir aracın (örneğin kod yorumlayıcı veya arama motoru API'si) çağrılması olarak kendini gösterir; böylece durumunu değiştirme amacıyla ortamı etkiler.
+1. **Algılama**: Döngünün başlangıç noktasıdır. Agent, algılayıcıları (örneğin API dinleme portları, kullanıcı giriş arayüzleri) aracılığıyla ortamdan girdi bilgilerini alır. Bu bilgiler, yani **Gözlem** (Observation), kullanıcının başlangıç talimatı ya da önceki eylemin neden olduğu çevre durumu değişikliklerine ilişkin geri bildirim olabilir.
+2. **Düşünme**: Gözlem bilgilerini aldıktan sonra agent çekirdek karar alma aşamasına girer. LLM agent'ları için bu genellikle büyük dil modelleri tarafından yönlendirilen dahili bir akıl yürütme sürecidir. Şekilde gösterildiği gibi, "düşünce" aşaması iki temel bağlantıya ayrılabilir:
+   - **Planlama**: Mevcut gözlemlere ve dahili belleğine dayanarak agent göreve ve ortama ilişkin anlayışını günceller; eylem planını formüle eder veya ayarlar. Bu, karmaşık hedeflerin bir dizi daha somut alt göreve ayrıştırılmasını içerebilir.
+   - **Araç Seçimi**: Mevcut plana dayanarak agent, mevcut araç kitaplığından bir sonraki adımı uygulamak için en uygun aracı seçer ve o aracı çağırmak için gereken belirli parametreleri belirler.
+3. **Eylem**: Karar alma tamamlandığında agent, eyleyicileri aracılığıyla belirli eylemleri gerçekleştirir. Bu genellikle seçilen bir aracın (örneğin kod yorumlayıcı veya arama motoru API'si) çağrılması olarak kendini gösterir; böylece durumunu değiştirme amacıyla ortamı etkiler.
 
-Eylem döngünün sonu değildir. Ajanın eylemi ortamda bir **durum değişikliğine** yol açar; bu da sonuç geri bildirimi olarak yeni bir **gözlem** üretir. Bu yeni gözlem, döngünün bir sonraki turunda ajanın algı sistemi tarafından yakalanır ve sürekli bir "algıla-düşün-eyle-gözlemle" kapalı döngüsü oluşturur. Ajan, bu döngüyü sürekli tekrarlayarak görevi yavaş yavaş ilerletir; başlangıç durumundan hedef durumuna doğru evrimleşir.
+Eylem döngünün sonu değildir. Agent'ın eylemi ortamda bir **durum değişikliğine** yol açar; bu da sonuç geri bildirimi olarak yeni bir **gözlem** üretir. Bu yeni gözlem, döngünün bir sonraki turunda agent'ın algı sistemi tarafından yakalanır ve sürekli bir "algıla-düşün-eyle-gözlemle" kapalı döngüsü oluşturur. Agent, bu döngüyü sürekli tekrarlayarak görevi yavaş yavaş ilerletir; başlangıç durumundan hedef durumuna doğru evrimleşir.
 
-### 1.2.3 Ajanın Algı ve Eylemi
+### 1.2.3 Agent'ın Algı ve Eylemi
 
-Mühendislik pratiğinde, LLM'lerin bu döngüyü etkin biçimde yönlendirebilmesi için ajan ile ortam arasındaki bilgi alışverişini düzenleyen açık bir **Etkileşim Protokolüne** ihtiyaç vardır.
+Mühendislik pratiğinde, LLM'lerin bu döngüyü etkin biçimde yönlendirebilmesi için agent ile ortam arasındaki bilgi alışverişini düzenleyen açık bir **Etkileşim Protokolüne** ihtiyaç vardır.
 
-Birçok modern ajan çerçevesinde bu protokol, her ajan çıktısının yapılandırılmış tanımında somutlaşır. Ajanın çıktısı artık tek bir doğal dil yanıtı değil; dahili akıl yürütme sürecini ve nihai kararı açıkça gösteren belirli bir formatı izleyen metin parçasıdır.
+Birçok modern agent çerçevesinde bu protokol, her agent çıktısının yapılandırılmış tanımında somutlaşır. Agent'ın çıktısı artık tek bir doğal dil yanıtı değil; dahili akıl yürütme sürecini ve nihai kararı açıkça gösteren belirli bir formatı izleyen metin parçasıdır.
 
 Bu yapı genellikle iki temel bölüm içerir:
 
-- **Düşünce (Thought)**: Ajanın dahili karar almasının "anlık görüntüsü"dür. Ajanın mevcut durumu nasıl analiz ettiğini, önceki adımın gözlem sonuçlarını nasıl değerlendirdiğini, öz-yansıma ve problem ayrıştırması gerçekleştirdiğini ve son olarak bir sonraki somut eylemi nasıl planladığını doğal dilde dile getirir.
-- **Eylem (Action)**: Düşünceye dayanarak ajanın ortama uygulamaya karar verdiği spesifik işlemdir; genellikle bir işlev çağrısı olarak ifade edilir.
+- **Thought**: Agent'ın dahili karar almasının "anlık görüntüsü"dür. Agent'ın mevcut durumu nasıl analiz ettiğini, önceki adımın gözlem sonuçlarını nasıl değerlendirdiğini, öz-yansıma ve problem ayrıştırması gerçekleştirdiğini ve son olarak bir sonraki somut eylemi nasıl planladığını doğal dilde dile getirir.
+- **Action**: Düşünceye dayanarak agent'ın ortama uygulamaya karar verdiği spesifik işlemdir; genellikle bir işlev çağrısı olarak ifade edilir.
 
-Örneğin, bir gezi planlayan ajan aşağıdaki formatlı çıktıyı üretebilir:
+Örneğin, bir gezi planlayan agent aşağıdaki formatlı çıktıyı üretebilir:
 
 ```Bash
 Thought: Kullanıcı Pekin'deki hava durumunu öğrenmek istiyor. Hava durumu sorgu aracını çağırmam gerekiyor.
@@ -208,15 +208,15 @@ Bu nedenle algı sisteminin önemli bir sorumluluğu sensör rolü oynamaktır: 
 Observation: Pekin'in mevcut hava durumu güneşli, sıcaklık 25 santigrat derece, hafif esinti.
 ```
 
-Bu `Observation` metni, bir sonraki döngü turunda yeni bir `Thought` ve `Action` turunu gerçekleştirmesi için ajanın ana girdi bilgisi olarak geri beslenir.
+Bu `Observation` metni, bir sonraki döngü turunda yeni bir `Thought` ve `Action` turunu gerçekleştirmesi için agent'ın ana girdi bilgisi olarak geri beslenir.
 
-Özetle, Düşünce, Eylem ve Gözlem'den oluşan bu titiz döngü aracılığıyla LLM ajanları, dahili dil akıl yürütme yeteneklerini dış ortamdaki gerçek bilgi ve araç operasyon kapasiteleriyle etkin biçimde birleştirebilir.
+Özetle, Thought, Action ve Observation'dan oluşan bu döngü sayesinde LLM agent'ları, dahili dil temelli akıl yürütmeyi dış ortamdaki gerçek bilgi ve tool operasyonlarıyla etkili biçimde birleştirebilir.
 
-## 1.3 Uygulamalı Deneyim: 5 Dakikada İlk Ajanınızı Uygulayın
+## 1.3 Uygulamalı Deneyim: 5 Dakikada İlk Agent'ınızı Uygulayın
 
-Önceki bölümlerde ajanın görev ortamını, temel çalışma mekanizmasını ve `Düşünce-Eylem-Gözlem` etkileşim paradigmasını öğrendik. Teorik bilgi önemli olsa da öğrenmenin en iyi yolu uygulamadır. Bu bölümde, birkaç satır Python kodu kullanarak sıfırdan çalışan bir akıllı seyahat asistanı inşa etmenize rehberlik edeceğiz. Bu süreç az önce öğrendiğimiz teorik döngüyü izleyecek; bir ajanın nasıl "düşündüğünü" ve dış "araçlarla" nasıl etkileşime girdiğini sezgisel biçimde deneyimlemenizi sağlayacak. Hadi başlayalım!
+Önceki bölümlerde agent'ın görev ortamını, temel çalışma mekanizmasını ve `Thought-Action-Observation` etkileşim paradigmasını öğrendik. Teorik bilgi önemli olsa da öğrenmenin en iyi yolu uygulamadır. Bu bölümde, birkaç satır Python kodu kullanarak sıfırdan çalışan bir akıllı seyahat asistanı inşa etmenize rehberlik edeceğiz. Bu süreç az önce öğrendiğimiz teorik döngüyü izleyecek; bir agent'ın nasıl "düşündüğünü" ve dış "araçlarla" nasıl etkileşime girdiğini sezgisel biçimde deneyimlemenizi sağlayacak. Hadi başlayalım!
 
-Bu vakada amacımız, adım adım görevleri yönetebilen akıllı bir seyahat asistanı inşa etmektir. Çözülecek kullanıcı görevi şöyle tanımlanıyor: "Merhaba, lütfen bugün Pekin'deki hava durumunu kontrol etmeme yardım et ve ardından havaya göre uygun bir turistik yeri öner." Bu görevi tamamlamak için ajan açık mantıksal planlama yetenekleri sergilemek zorundadır. Önce hava durumu sorgulama aracını çağırması ve elde ettiği gözlem sonuçlarını bir sonraki adımın temeli olarak kullanması gerekir. Döngünün bir sonraki turunda ise sonunda nihai öneriyi sunmak için turistik yer öneri aracını çağırır.
+Bu vakada amacımız, adım adım görevleri yönetebilen akıllı bir seyahat asistanı inşa etmektir. Çözülecek kullanıcı görevi şöyle tanımlanıyor: "Merhaba, lütfen bugün Pekin'deki hava durumunu kontrol etmeme yardım et ve ardından havaya göre uygun bir turistik yeri öner." Bu görevi tamamlamak için agent açık mantıksal planlama yetenekleri sergilemek zorundadır. Önce hava durumu sorgulama aracını çağırması ve elde ettiği gözlem sonuçlarını bir sonraki adımın temeli olarak kullanması gerekir. Döngünün bir sonraki turunda ise sonunda nihai öneriyi sunmak için turistik yer öneri aracını çağırır.
 
 ### 1.3.1 Hazırlık
 
@@ -228,7 +228,7 @@ pip install requests tavily-python openai
 
 (1) Talimat Şablonu
 
-Gerçek bir LLM'yi yönlendirmenin anahtarı **İstem Mühendisliği**nde yatar. LLM'ye hangi rolü üstleneceğini, hangi araçlara sahip olduğunu ve düşüncelerini ve eylemlerini nasıl biçimlendireceğini söyleyen bir "talimat şablonu" tasarlamamız gerekiyor. Bu, `system_prompt` olarak LLM'ye aktarılacak ajanımızın "kılavuzudur".
+Gerçek bir LLM'yi yönlendirmenin anahtarı **İstem Mühendisliği**nde yatar. LLM'ye hangi rolü üstleneceğini, hangi araçlara sahip olduğunu ve düşüncelerini ve eylemlerini nasıl biçimlendireceğini söyleyen bir "talimat şablonu" tasarlamamız gerekiyor. Bu, `system_prompt` olarak LLM'ye aktarılacak agent'ımızın "kılavuzudur".
 
 ```
 AGENT_SYSTEM_PROMPT = """
@@ -239,7 +239,7 @@ Sen akıllı bir seyahat asistanısın. Görevin, kullanıcı isteklerini analiz
 - `get_attraction(city: str, weather: str)`: Şehir ve hava durumuna göre önerilen turistik yerleri arar.
 
 # Çıktı Formatı Gereksinimleri:
-Her yanıt mutlaka bu formatı izlemeli; bir Düşünce-Eylem çifti içermelidir:
+Her yanıt mutlaka bu formatı izlemeli; bir Thought-Action çifti içermelidir:
 
 Thought: [Düşünce sürecin ve sonraki adım planın]
 Action: [Gerçekleştirmek istediğin spesifik eylem]
@@ -249,7 +249,7 @@ Eylem formatı aşağıdakilerden biri olmalıdır:
 2. Görevi bitir: Finish[son yanıt]
 
 # Önemli Notlar:
-- Her seferinde yalnızca bir Düşünce-Eylem çifti çıktıla
+- Her seferinde yalnızca bir Thought-Action çifti çıktıla
 - Eylem aynı satırda olmalı, satır atlatma
 - Kullanıcının sorusunu yanıtlamak için yeterli bilgi topladığında, Action: Finish[son yanıt] formatını kullanarak bitirmelisin
 
@@ -354,7 +354,7 @@ available_tools = {
 
 ### 1.3.2 Büyük Dil Modellerine Bağlanmak
 
-Günümüzde pek çok LLM servis sağlayıcısı (OpenAI, Azure ve Ollama, vLLM gibi çok sayıda açık kaynak model hizmet çerçevesi dahil) OpenAI API'sine benzer arayüz özelliklerine uyar. Bu standardizasyon geliştiricilere büyük kolaylık sağlar. Ajanın özerk karar alma kapasitesi LLM'den gelir. OpenAI arayüz özelliğiyle uyumlu herhangi bir LLM hizmetine bağlanabilen evrensel bir istemci `OpenAICompatibleClient` uygulayacağız.
+Günümüzde pek çok LLM servis sağlayıcısı (OpenAI, Azure ve Ollama, vLLM gibi çok sayıda açık kaynak model hizmet çerçevesi dahil) OpenAI API'sine benzer arayüz özelliklerine uyar. Bu standardizasyon geliştiricilere büyük kolaylık sağlar. Agent'ın özerk karar alma kapasitesi LLM'den gelir. OpenAI arayüz özelliğiyle uyumlu herhangi bir LLM hizmetine bağlanabilen evrensel bir istemci `OpenAICompatibleClient` uygulayacağız.
 
 ```python
 from openai import OpenAI
@@ -426,14 +426,14 @@ for i in range(5): # Maksimum döngü sayısını ayarla
 
     # 3.2. Düşünmek için LLM'yi çağır
     llm_output = llm.generate(full_prompt, system_prompt=AGENT_SYSTEM_PROMPT)
-    # Modelin üretebileceği ekstra Düşünce-Eylem çiftlerini kes
+    # Modelin üretebileceği ekstra Thought-Action çiftlerini kes
     match = re.search(r'(Thought:.*?Action:.*?)(?=\n\s*(?:Thought:|Action:|Observation:)|\Z)', 
                     llm_output, re.DOTALL)
     if match:
         truncated = match.group(1).strip()
         if truncated != llm_output.strip():
             llm_output = truncated
-            print("Ekstra Düşünce-Eylem çiftleri kesildi")
+            print("Ekstra Thought-Action çiftleri kesildi")
     print(f"Model çıktısı:\n{llm_output}\n")
     prompt_history.append(llm_output)
 
@@ -467,11 +467,11 @@ for i in range(5): # Maksimum döngü sayısını ayarla
     prompt_history.append(observation_str)
 ```
 
-Yukarıdaki adımlarla, gerçek bir LLM tarafından yönlendirilen eksiksiz bir ajan inşa ettik. Çekirdeği "araçlar" ile "istem mühendisliği"nin birleşiminde yatar; bu da günümüz ana akım ajan çerçevelerinin (LangChain, LlamaIndex vb. gibi) tasarım özüdür.
+Yukarıdaki adımlarla, gerçek bir LLM tarafından yönlendirilen eksiksiz bir agent inşa ettik. Çekirdeği "araçlar" ile "istem mühendisliği"nin birleşiminde yatar; bu da günümüz ana akım agent çerçevelerinin (LangChain, LlamaIndex vb. gibi) tasarım özüdür.
 
 ### 1.3.4 Çalışma Vakası Analizi
 
-Aşağıdaki çıktı, başarılı bir ajan yürütme sürecini tam olarak göstermektedir. Bu üç turlu döngünün analizi aracılığıyla, ajanın sorunları çözmede sahip olduğu temel yetenekleri açıkça görebiliriz.
+Aşağıdaki çıktı, başarılı bir agent yürütme sürecini tam olarak göstermektedir. Bu üç turlu döngünün analizi aracılığıyla, agent'ın sorunları çözmede sahip olduğu temel yetenekleri açıkça görebiliriz.
 
 ```bash
 Kullanıcı girişi: Merhaba, lütfen bugün Pekin'deki hava durumunu kontrol et ve ardından havaya göre uygun bir turistik yer öner.
@@ -507,15 +507,15 @@ Action: Finish[Bugün Pekin'de hava güneşli ve sıcaklık 26 santigrat derece;
 Görev tamamlandı, son yanıt: Bugün Pekin'de hava güneşli ve sıcaklık 26 santigrat derece; açık hava etkinlikleri için çok uygun. Güzel göl manzaraları ve tarihi mimarisiyle Yaz Sarayı'nı ya da muhteşem manzarası ve derin tarihi önemiyle Çin Seddi'ni ziyaret etmenizi öneririm. Keyifli bir gezi dilerim!
 ```
 
-Bu basit seyahat asistanı vakası, `Düşünce-Eylem-Gözlem` paradigmasına dayalı bir ajanın dört temel yeteneğini yoğun biçimde göstermektedir: görev ayrıştırma, araç çağırma, bağlam anlama ve sonuç sentezleme. Döngünün sürekli yinelenmesiyle ajan, belirsiz bir kullanıcı niyetini somut, uygulanabilir bir dizi adıma dönüştürebilir ve nihayet hedefe ulaşabilir.
+Bu basit seyahat asistanı vakası, `Thought-Action-Observation` paradigmasına dayalı bir agent'ın dört temel yeteneğini yoğun biçimde göstermektedir: görev ayrıştırma, araç çağırma, bağlam anlama ve sonuç sentezleme. Döngünün sürekli yinelenmesiyle agent, belirsiz bir kullanıcı niyetini somut, uygulanabilir bir dizi adıma dönüştürebilir ve nihayet hedefe ulaşabilir.
 
-## 1.4 Ajan Uygulamalarının İşbirliği Modları
+## 1.4 Agent Uygulamalarının İşbirliği Modları
 
-Önceki bölümde kendi ajanımızı inşa ederek bir ajanın dahili çalışma döngüsüne derin bir anlayış kazandık. Ancak daha geniş uygulama senaryolarında rolümüz giderek kullanıcı ve işbirlikçiye dönüşmektedir. Ajanın görevlerdeki rolüne ve özerklik derecesine bağlı olarak işbirliği modları esas olarak iki türe ayrılır: biri iş akışımıza derinden entegre verimli bir araç olarak; diğeri karmaşık hedefleri tamamlamak için diğer ajanlarla birlikte çalışan özerk bir işbirlikçi olarak.
+Önceki bölümde kendi agent'ımızı inşa ederek bir agent'ın dahili çalışma döngüsüne derin bir anlayış kazandık. Ancak daha geniş uygulama senaryolarında rolümüz giderek kullanıcı ve işbirlikçiye dönüşmektedir. Agent'ın görevlerdeki rolüne ve özerklik derecesine bağlı olarak işbirliği modları esas olarak iki türe ayrılır: biri iş akışımıza derinden entegre verimli bir araç olarak; diğeri karmaşık hedefleri tamamlamak için diğer agent'larla birlikte çalışan özerk bir işbirlikçi olarak.
 
-### 1.4.1 Geliştirici Araçları Olarak Ajanlar
+### 1.4.1 Geliştirici Araçları Olarak Agent'lar
 
-Bu modda ajanlar, geliştiricilerin iş akışlarına güçlü yardımcı araçlar olarak derinden entegre olur. Geliştiricinin rolünü güçlendirir ve onun yerine geçmez; sıkıcı ve tekrarlayan görevleri otomatikleştirir, böylece geliştiriciler yaratıcı çekirdek çalışmalara daha fazla odaklanabilir. Bu insan-makine işbirliği yaklaşımı yazılım geliştirmenin verimliliğini ve kalitesini büyük ölçüde artırır.
+Bu modda agent'lar, geliştiricilerin iş akışlarına güçlü yardımcı araçlar olarak derinden entegre olur. Geliştiricinin rolünü güçlendirir ve onun yerine geçmez; sıkıcı ve tekrarlayan görevleri otomatikleştirir, böylece geliştiriciler yaratıcı çekirdek çalışmalara daha fazla odaklanabilir. Bu insan-makine işbirliği yaklaşımı yazılım geliştirmenin verimliliğini ve kalitesini büyük ölçüde artırır.
 
 Günümüzde piyasada birden fazla mükemmel YZ programlama yardım aracı ortaya çıkmıştır. Hepsi geliştirme verimliliğini iyileştirse de uygulama yolları ve işlevsel odak noktaları bakımından farklılık gösterir:
 
@@ -523,49 +523,49 @@ Günümüzde piyasada birden fazla mükemmel YZ programlama yardım aracı ortay
 - **Claude Code**: Claude Code, Anthropic tarafından geliştirilen ve geliştiricilerin terminal üzerinden doğal dil talimatlarıyla kodlama görevlerini verimli biçimde tamamlamasına yardımcı olmak için tasarlanmış YZ programlama asistanıdır.
 - **Cursor**: Copilot'tan farklı olarak eklenti değil, YZ-yerel bir kod editörüdür. YZ etkileşimini tasarım aşamasından itibaren temel özellik olarak konumlandırmıştır.
 
-### 1.4.2 Özerk İşbirlikçiler Olarak Ajanlar
+### 1.4.2 Özerk İşbirlikçiler Olarak Agent'lar
 
-İnsanlara yardımcı olmaktan farklı olarak, ikinci etkileşim modu ajanların otomasyon düzeyini tamamen yeni bir seviyeye taşır: özerk işbirlikçiler. Bu modda YZ'yi artık her adımda adım adım yönlendirmeyiz; yüksek seviyeli bir hedefi ona devrederiz. Ajan, gerçek bir proje ekip üyesi gibi bağımsız olarak planlar, akıl yürütür, uygular ve yansıtır; sonunda sonuçları teslim eder. Bu dönüşüm, YZ ile ilişkimizin "komut-yürütme"den "hedef-devretme"ye evrimini işaret eder.
+İnsanlara yardımcı olmaktan farklı olarak, ikinci etkileşim modu agent'ların otomasyon düzeyini tamamen yeni bir seviyeye taşır: özerk işbirlikçiler. Bu modda YZ'yi artık her adımda adım adım yönlendirmeyiz; yüksek seviyeli bir hedefi ona devrederiz. Agent, gerçek bir proje ekip üyesi gibi bağımsız olarak planlar, akıl yürütür, uygular ve yansıtır; sonunda sonuçları teslim eder. Bu dönüşüm, YZ ile ilişkimizin "komut-yürütme"den "hedef-devretme"ye evrimini işaret eder.
 
 Başlıca çerçeveler ve ürünler arasında erken dönem BabyAGI ve AutoGPT'den günümüzün daha olgun CrewAI, AutoGen, MetaGPT ve LangGraph çerçevelerine uzanan birçok yaklaşım bulunmaktadır. Mimari paradigmaları şu ana akım yönlere özetlenebilir:
 
-1. **Tekil Ajan Özerk Döngüsü**: Bir genel ajan, açık uçlu üst düzey hedefi tamamlamak için "düşün-planla-uygula-yansıt" kapalı döngüsü aracılığıyla sürekli kendini istemler ve yineler.
-2. **Çok-Ajan İşbirliği**: Şu an en ana akım keşif yönüdür; insan ekip işbirliği modlarını simüle ederek karmaşık problemleri çözmeyi amaçlar.
-3. **Gelişmiş Kontrol Akışı Mimarisi**: LangGraph gibi çerçeveler ajanın yürütme sürecini durum grafiği olarak modelleyerek döngüler, dallar, geri dönüşler ve insan müdahalesi gibi karmaşık süreçleri daha esnek ve güvenilir biçimde uygulamayı sağlar.
+1. **Tekil Agent Özerk Döngüsü**: Bir genel agent, açık uçlu üst düzey hedefi tamamlamak için "düşün-planla-uygula-yansıt" kapalı döngüsü aracılığıyla sürekli kendini istemler ve yineler.
+2. **Çok-Agent İşbirliği**: Şu an en ana akım keşif yönüdür; insan ekip işbirliği modlarını simüle ederek karmaşık problemleri çözmeyi amaçlar.
+3. **Gelişmiş Kontrol Akışı Mimarisi**: LangGraph gibi çerçeveler agent'ın yürütme sürecini durum grafiği olarak modelleyerek döngüler, dallar, geri dönüşler ve insan müdahalesi gibi karmaşık süreçleri daha esnek ve güvenilir biçimde uygulamayı sağlar.
 
-### 1.4.3 İş Akışı ve Ajan Arasındaki Farklar
+### 1.4.3 Workflow ve Agent Arasındaki Farklar
 
-Ajanları hem "araçlar" hem "işbirlikçiler" olarak anladıktan sonra, İş Akışı (Workflow) ile Ajan arasındaki farkları ele almak gerekir. Her ikisi de görev otomasyonunu hedefler; ancak temel mantıkları, çekirdek özellikleri ve uygulanabilir senaryoları temelden farklıdır.
+Agent'ları hem "araçlar" hem "işbirlikçiler" olarak anladıktan sonra, Workflow ile Agent arasındaki farkları ele almak gerekir. Her ikisi de görev otomasyonunu hedefler; ancak temel mantıkları, çekirdek özellikleri ve uygulanabilir senaryoları temelden farklıdır.
 
-Kısaca: **İş Akışı YZ'ye adım adım talimat uygular; Ajan ise YZ'ye hedeflere özerk biçimde ulaşma özgürlüğü tanır.**
+Kısaca: **Workflow, YZ'ye adım adım talimat uygular; Agent ise YZ'ye hedefe özerk biçimde ulaşma özgürlüğü tanır.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-18.png" alt="İş Akışı ve Ajan arasındaki farklar" width="90%"/>
-  <p>Şekil 1.6 İş Akışı ve Ajan arasındaki farklar</p>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-18.png" alt="Workflow ve Agent arasındaki farklar" width="90%"/>
+  <p>Şekil 1.6 Workflow ve Agent arasındaki farklar</p>
 </div>
 
 Şekil 1.6'da gösterildiği gibi iş akışı, çekirdeği **önceden tanımlanmış, yapılandırılmış bir dizi görev veya adım orkestrasyonu** olan geleneksel bir otomasyon paradigmasıdır. Özünde hangi koşullarda hangi operasyonların hangi sırayla yürütüleceğini belirten kesin, statik bir akış şemasıdır.
 
-Ajanlar ise büyük dil modellerine dayalı olarak **özerk, hedef odaklı sistemlerdir**. Yalnızca önceden ayarlanmış talimatları uygulamakla kalmaz; ortamı belirli ölçüde anlayabilir, akıl yürütebilir, plan yapabilir ve nihai hedeflere ulaşmak için dinamik eylemler gerçekleştirebilir. Bu süreçte LLM'ler "beyin" rolünü üstlenir.
+Agent'lar ise büyük dil modellerine dayalı olarak **özerk, hedef odaklı sistemlerdir**. Yalnızca önceden ayarlanmış talimatları uygulamakla kalmaz; ortamı belirli ölçüde anlayabilir, akıl yürütebilir, plan yapabilir ve nihai hedeflere ulaşmak için dinamik eylemler gerçekleştirebilir. Bu süreçte LLM'ler "beyin" rolünü üstlenir.
 
-**Dinamik akıl yürütme ve gerçek zamanlı bilgiye dayalı karar alma yeteneği, ajanların temel değeridir.**
+**Dinamik akıl yürütme ve gerçek zamanlı bilgiye dayalı karar alma yeteneği, agent'ların temel değeridir.**
 
 ## 1.4 Bölüm Özeti
 
-Bu bölümde ajanlara tanıtım yolculuğuna çıktık. En temel sorularla başladık:
+Bu bölümde agent'lara tanıtım yolculuğuna çıktık. En temel sorularla başladık:
 
-- **LLM güdümlü ajanlar nedir?** Önce tanımlarını netleştirdik; modern ajanların önceden ayarlanmış programları yürüten betikler değil, özerk akıl yürütme ve araç kullanma yeteneklerine sahip karar vericiler olduğunu anladık.
-- **Ajanlar nasıl çalışır?** Ajan-ortam etkileşiminin çalışma mekanizmasını derinlemesine inceledik; bu sürekli kapalı döngünün bilgi işleme, karar alma, ortamı etkileme ve geri bildirime dayalı davranış ayarlama için temel oluşturduğunu öğrendik.
-- **Bir ajan nasıl inşa edilir?** "Akıllı seyahat asistanı" örneğini kullanarak gerçek bir LLM tarafından yönlendirilen eksiksiz bir ajan inşa ettik.
-- **Ana akım ajan uygulama paradigmaları nelerdir?** Son olarak daha geniş uygulama alanlarına baktık; insan iş akışlarını güçlendiren GitHub Copilot ve Cursor gibi "geliştirici araçları" ile CrewAI, MetaGPT, AgentScope gibi çerçeveler tarafından temsil edilen ve bağımsız olarak üst düzey hedefleri tamamlayabilen "özerk işbirlikçiler" olmak üzere iki ana akım ajan etkileşim modunu araştırdık. İş Akışı ile Ajan arasındaki farkları da açıkladık.
+- **LLM güdümlü agent'lar nedir?** Önce tanımlarını netleştirdik; modern agent'ların önceden ayarlanmış programları yürüten betikler değil, özerk akıl yürütme ve araç kullanma yeteneklerine sahip karar vericiler olduğunu anladık.
+- **Agent'lar nasıl çalışır?** Agent-ortam etkileşiminin çalışma mekanizmasını derinlemesine inceledik; bu sürekli kapalı döngünün bilgi işleme, karar alma, ortamı etkileme ve geri bildirime dayalı davranış ayarlama için temel oluşturduğunu öğrendik.
+- **Bir agent nasıl inşa edilir?** "Akıllı seyahat asistanı" örneğini kullanarak gerçek bir LLM tarafından yönlendirilen eksiksiz bir agent inşa ettik.
+- **Ana akım agent uygulama paradigmaları nelerdir?** Son olarak daha geniş uygulama alanlarına baktık; insan workflow'unu güçlendiren GitHub Copilot ve Cursor gibi "geliştirici araçları" ile CrewAI, MetaGPT, AgentScope gibi çerçeveler tarafından temsil edilen ve bağımsız olarak üst düzey hedefleri tamamlayabilen "özerk işbirlikçiler" olmak üzere iki ana akım agent etkileşim modunu araştırdık. Workflow ile Agent arasındaki farkları da açıkladık.
 
-Bu bölümün öğreniminden yola çıkarak ajanlar hakkında temel bir bilişsel çerçeve oluşturduk. Peki, ilk kavranışından bugüne adım adım nasıl evrimleşti? Bir sonraki bölümde ajanların gelişim tarihini araştıracağız; kökenlere dönüş yolculuğu başlamak üzere!
+Bu bölümün öğreniminden yola çıkarak agent'lar hakkında temel bir bilişsel çerçeve oluşturduk. Peki, ilk kavranışından bugüne adım adım nasıl evrimleşti? Bir sonraki bölümde agent'ların gelişim tarihini araştıracağız; kökenlere dönüş yolculuğu başlamak üzere!
 
 ## Alıştırmalar
 
-> **Not**: Aşağıdaki alıştırmaların bir kısmının standart yanıtı yoktur. Odak, öğrencilerin ajan sistemleri hakkında eleştirel derinlemesine düşünme ve uygulamalı pratik yeteneklerini geliştirmektir.
+> **Not**: Aşağıdaki alıştırmaların bir kısmının standart yanıtı yoktur. Odak, öğrencilerin agent sistemleri hakkında eleştirel derinlemesine düşünme ve uygulamalı pratik yeteneklerini geliştirmektir.
 
-1. Aşağıdaki dört `vakadaki` **özne**nin ajan niteliği taşıyıp taşımadığını analiz edin. Taşıyorsa hangi ajan türüne ait olduğunu (birden fazla sınıflandırma boyutundan analiz edilebilir) açıklayın:
+1. Aşağıdaki dört `vakadaki` **özne**nin agent niteliği taşıyıp taşımadığını analiz edin. Taşıyorsa hangi agent türüne ait olduğunu (birden fazla sınıflandırma boyutundan analiz edilebilir) açıklayın:
 
    `Vaka A`: **Von Neumann mimarisine uyan bir süperbilgisayar**, saniye başına 2 EFlops'a kadar tepe hesaplama gücüyle
 
@@ -575,36 +575,36 @@ Bu bölümün öğreniminden yola çıkarak ajanlar hakkında temel bir bilişse
 
    `Vaka D`: **Akıllı müşteri hizmetleri olarak hareket eden ChatGPT** bir kullanıcı şikayetini ele alıyor; sipariş bilgilerini sorgulamak, sorunun nedenini analiz etmek, çözümler sunmak ve kullanıcı duygularını yatıştırmak zorundadır
 
-2. "Akıllı fitness koçu" için bir görev ortamı tasarlamanız gerektiğini varsayalım. Bu ajan şunları yapabilir:
+2. "Akıllı fitness koçu" için bir görev ortamı tasarlamanız gerektiğini varsayalım. Bu agent şunları yapabilir:
    - Giyilebilir cihazlar aracılığıyla kullanıcıların kalp atışı ve egzersiz yoğunluğu gibi fizyolojik verilerini izler
    - Kullanıcıların fitness hedeflerine (yağ yakma/kas geliştirme/dayanıklılık artırma) göre antrenman planlarını dinamik biçimde ayarlar
    - Kullanıcı egzersiz sırasında gerçek zamanlı sesli rehberlik ve hareket düzeltme sağlar
    - Antrenman etkinliğini değerlendirir ve diyet önerileri sunar
 
-   PEAS modelini kullanarak bu ajanın görev ortamını tam olarak tanımlayın ve bu ortamın hangi özelliklere sahip olduğunu analiz edin (kısmen gözlemlenebilir, stokastik, dinamik vb. gibi).
+   PEAS modelini kullanarak bu agent'ın görev ortamını tam olarak tanımlayın ve bu ortamın hangi özelliklere sahip olduğunu analiz edin (kısmen gözlemlenebilir, stokastik, dinamik vb. gibi).
 
 3. Bir e-ticaret şirketi satış sonrası iade taleplerini karşılamak için iki yaklaşımı değerlendirmektedir:
 
-   Yaklaşım A (`İş Akışı`): Sabit bir süreç tasarla; örneğin 7 gün içindeki genel ürünler için `< 100 TL` otomatik onaylanır; `100-500 TL` müşteri hizmetleri tarafından incelenir; `> 500 TL` yönetici onayı gerektirir.
+   Yaklaşım A (`Workflow`): Sabit bir süreç tasarla; örneğin 7 gün içindeki genel ürünler için `< 100 TL` otomatik onaylanır; `100-500 TL` müşteri hizmetleri tarafından incelenir; `> 500 TL` yönetici onayı gerektirir.
 
-   Yaklaşım B (`Ajan`): İade politikalarını anlayan, kullanıcı geçmiş davranışını analiz eden ve ürün koşullarını değerlendirerek özerk biçimde iade onayına karar veren bir ajan sistemi oluştur.
+   Yaklaşım B (`Agent`): İade politikalarını anlayan, kullanıcı geçmiş davranışını analiz eden ve ürün koşullarını değerlendirerek özerk biçimde iade onayına karar veren bir agent sistemi oluştur.
 
-   Bu iki yaklaşımın avantaj ve dezavantajlarını analiz edin. `İş Akışı` ne zaman daha uygun? `Ajan` ne zaman avantajlıdır?
+   Bu iki yaklaşımın avantaj ve dezavantajlarını analiz edin. `Workflow` ne zaman daha uygun? `Agent` ne zaman avantajlıdır?
 
 4. 1.3. Bölümdeki akıllı seyahat asistanını temel alarak aşağıdaki özelliklerin nasıl ekleneceğini düşünün:
    - Kullanıcı tercihlerini hatırlayan bir "bellek" özelliği ekleyin
-   - Önerilen turistik yerin biletleri tükendiğinde ajan otomatik olarak alternatif önerir
-   - Kullanıcı art arda 3 öneriyi reddederse ajan yansıtır ve öneri stratejisini ayarlar
+   - Önerilen turistik yerin biletleri tükendiğinde agent otomatik olarak alternatif önerir
+   - Kullanıcı art arda 3 öneriyi reddederse agent yansıtır ve öneri stratejisini ayarlar
 
-5. Kahneman'ın "Sistem 1" (hızlı sezgi) ve "Sistem 2" (yavaş akıl yürütme) teorisi<sup>[2]</sup>, nöro-sembolik YZ için iyi bir analoji sağlar. Belirli bir ajan uygulama senaryosu tasarlayın ve ardından açıklayın:
+5. Kahneman'ın "Sistem 1" (hızlı sezgi) ve "Sistem 2" (yavaş akıl yürütme) teorisi<sup>[2]</sup>, Neuro-Symbolic AI için iyi bir analoji sağlar. Belirli bir agent uygulama senaryosu tasarlayın ve ardından açıklayın:
    - "Sistem 1" tarafından hangi görevler ele alınmalı?
    - "Sistem 2" tarafından hangi görevler ele alınmalı?
    - Bu iki sistem nihai hedefe ulaşmak için nasıl birlikte çalışır?
 
-6. Büyük dil modeli güdümlü ajan sistemleri güçlü yetenekler sergiler; ancak hâlâ pek çok sınırlılıkları vardır. Şu soruları analiz edin:
-   - Ajanlar neden zaman zaman "halüsinasyon" (görünürde makul ancak gerçekte yanlış bilgi üretme) yapar?
-   - 1.3. Bölümdeki vakada maksimum döngü sayısını 5 olarak belirledik. Bu sınır olmadan ajan hangi sorunlarla karşılaşabilir?
-   - Bir ajanın "zeka" düzeyini nasıl değerlendiririz? Yalnızca doğruluk ölçütleri kullanmak yeterli mi?
+6. Büyük dil modeli güdümlü agent sistemleri güçlü yetenekler sergiler; ancak hâlâ pek çok sınırlılıkları vardır. Şu soruları analiz edin:
+   - Agent'lar neden zaman zaman "halüsinasyon" (görünürde makul ancak gerçekte yanlış bilgi üretme) yapar?
+   - 1.3. Bölümdeki vakada maksimum döngü sayısını 5 olarak belirledik. Bu sınır olmadan agent hangi sorunlarla karşılaşabilir?
+   - Bir agent'ın "zeka" düzeyini nasıl değerlendiririz? Yalnızca doğruluk ölçütleri kullanmak yeterli mi?
 
 ## Kaynaklar
 

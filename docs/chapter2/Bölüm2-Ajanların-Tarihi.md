@@ -1,4 +1,4 @@
-# Bölüm 2: Ajanların Tarihi
+# Bölüm 2: Agent'ların Tarihi
 
 > **Bu bölüm çeviri bekliyor.** Katkıda bulunmak ister misiniz? Pull Request açmaktan çekinmeyin!
 
