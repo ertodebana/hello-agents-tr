@@ -1,28 +1,28 @@
-- [Hello-Agents](./README.md)
-  - [前言](./前言.md)
-  
-- <strong>第一部分：智能体与语言模型基础</strong>
-  - [第一章 初识智能体](./chapter1/第一章%20初识智能体.md)
-  - [第二章 智能体发展史](./chapter2/第二章%20智能体发展史.md)
-  - [第三章 大语言模型基础](./chapter3/第三章%20大语言模型基础.md)
+- [Hello-Agents Türkçe](./README.md)
+  - [Ön Söz](./Bölüm0-Ön-Söz.md)
 
-- <strong>第二部分：构建你的大语言模型智能体</strong>
-  - [第四章 智能体经典范式构建](./chapter4/第四章%20智能体经典范式构建.md)
-  - [第五章 基于低代码平台的智能体搭建](./chapter5/第五章%20基于低代码平台的智能体搭建.md)
-  - [第六章 框架开发实践](./chapter6/第六章%20框架开发实践.md)
-  - [第七章 构建你的Agent框架](./chapter7/第七章%20构建你的Agent框架.md)
+- <strong>Kısım I: Ajanlara ve Dil Modellerine Giriş</strong>
+  - [Bölüm 1: Ajanlara Giriş](./chapter1/Bölüm1-Ajanlara-Giriş.md)
+  - [Bölüm 2: Ajanların Tarihi](./chapter2/Bölüm2-Ajanların-Tarihi.md)
+  - [Bölüm 3: Büyük Dil Modeli Temelleri](./chapter3/Bölüm3-BDM-Temelleri.md)
 
-- <strong>第三部分：高级知识扩展</strong>
-  - [第八章 记忆与检索](./chapter8/第八章%20记忆与检索.md)
-  - [第九章 上下文工程](./chapter9/第九章%20上下文工程.md)
-  - [第十章 智能体通信协议](./chapter10/第十章%20智能体通信协议.md)
-  - [第十一章 Agentic-RL](./chapter11/第十一章%20Agentic-RL.md)
-  - [第十二章 智能体性能评估](./chapter12/第十二章%20智能体性能评估.md)
+- <strong>Kısım II: LLM Ajanı Oluşturma</strong>
+  - [Bölüm 4: Klasik Ajan Paradigmaları](./chapter4/Bölüm4-Klasik-Ajan-Paradigmaları.md)
+  - [Bölüm 5: Düşük Kodlu Platformlar](./chapter5/Bölüm5-Düşük-Kodlu-Platformlar.md)
+  - [Bölüm 6: Çerçeve Geliştirme Pratiği](./chapter6/Bölüm6-Çerçeve-Geliştirme.md)
+  - [Bölüm 7: Kendi Ajan Çerçeven](./chapter7/Bölüm7-Kendi-Ajan-Çerçeven.md)
 
-- <strong>第四部分：综合案例进阶</strong>
-  - [第十三章 智能旅行助手](./chapter13/第十三章%20智能旅行助手.md)
-  - [第十四章 自动化深度研究智能体](./chapter14/第十四章%20自动化深度研究智能体.md)
-  - [第十五章 构建赛博小镇](./chapter15/第十五章%20构建赛博小镇.md)
+- <strong>Kısım III: İleri Bilgi Genişletme</strong>
+  - [Bölüm 8: Bellek ve Erişim](./chapter8/Bölüm8-Bellek-ve-Erişim.md)
+  - [Bölüm 9: Bağlam Mühendisliği](./chapter9/Bölüm9-Bağlam-Mühendisliği.md)
+  - [Bölüm 10: İletişim Protokolleri](./chapter10/Bölüm10-İletişim-Protokolleri.md)
+  - [Bölüm 11: Ajansal Pekiştirmeli Öğrenme](./chapter11/Bölüm11-Ajansal-RL.md)
+  - [Bölüm 12: Performans Değerlendirme](./chapter12/Bölüm12-Performans-Değerlendirme.md)
 
-- <strong>第五部分：毕业设计及未来展望</strong>
-  - [第十六章 毕业设计](./chapter16/第十六章%20毕业设计.md)
+- <strong>Kısım IV: Kapsamlı Vaka Çalışmaları</strong>
+  - [Bölüm 13: Akıllı Seyahat Asistanı](./chapter13/Bölüm13-Seyahat-Asistanı.md)
+  - [Bölüm 14: Derin Araştırma Ajanı](./chapter14/Bölüm14-Araştırma-Ajanı.md)
+  - [Bölüm 15: Siber Şehir İnşası](./chapter15/Bölüm15-Siber-Şehir.md)
+
+- <strong>Kısım V: Mezuniyet Projesi</strong>
+  - [Bölüm 16: Mezuniyet Projesi](./chapter16/Bölüm16-Mezuniyet-Projesi.md)
